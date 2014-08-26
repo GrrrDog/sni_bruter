@@ -24,7 +24,7 @@ If you want to test the tool, check this site about SNI configuration: https://s
 If you find any interesting cases/artifacts, please inform me (agrrrdog at gmail.com)
 
 
-The tool uses M2Crypto Python module. If you want to use it on Windows OS, you probably will have a problem with M2Crypto installation. Try next sequence, it works for me:
+The tool uses Python 2.7 with M2Crypto  module. If you want to use it on Windows OS, you probably will have a problem with M2Crypto installation. Try next sequence, it works for me:
 - http://slproweb.com/download/Win32OpenSSL_Light-1_0_1i.exe
 - https://raw.githubusercontent.com/saltstack/salt-windows-install/master/deps/win32-py2.7/M2Crypto-0.21.1.win32-py2.7.msi
 - easy_install m2crypto
